@@ -6,10 +6,23 @@
 <link rel="stylesheet" href="styles.css">
 
 <!-- scripts -->
+<script>
+function detectMobile() {
+   return window.innerWidth <= 800 || window.innerHeight <= 600;
+}
+
+if (detectMobile()) {
+    var fileref = document.createElement("link");
+    fileref.rel = "stylesheet";
+    fileref.type = "text/css";
+    fileref.href = "styles_mobile.css";
+    document.getElementsByTagName("head")[0].appendChild(fileref)
+}
+</script>
 <script src="https://rawcdn.githack.com/oscarmorrison/md-page/232e97938de9f4d79f4110f6cfd637e186b63317/md-page.js"></script><noscript>
 
 <!-- content -->
-<object data="fragments/banner.html" width="450" height="95"></object>
+<object style="width:100%" data="fragments/banner.html" height="95"></object>
 
 ---
 
@@ -113,10 +126,10 @@
 </div>
 </div>
 
-For more, see my <a href="https://xdaforums.com/m/rcky844.10273523/#xdadevices_inventory">Device Inventory</a> on XDA.
+<p>For more, see my <a href="https://xdaforums.com/m/rcky844.10273523/#xdadevices_inventory">Device Inventory</a> on XDA.</p>
 </div>
 </div>
 
 ---
 
-<object data="fragments/footer.html" width="600" height="150"></object>
+<object style="width:100%" data="fragments/footer.html"></object>
