@@ -181,9 +181,25 @@ function updateHideHome(value) {
     }
 }
 
+/* Mobile dynamic styles */
+function detectMobile() {
+   return window.innerWidth <= 800 || window.innerHeight <= 600;
+}
+
+function fixInputContainerForMobile() {
+    if (detectMobile()) {
+        const searchButton = document.getElementById("search");
+        searchButton.remove();
+
+        const inputbox = document.getElementById('search-input');
+        inputbox.style.width = "80%";
+    }
+}
+
 window.onload = function() {
     loadEngines();
     setDefaultsFromStorage();
+    fixInputContainerForMobile();
 
     // Setup search input box for enter key presses
     var inputbox = document.getElementById('search-input');
@@ -216,7 +232,7 @@ window.onload = function() {
 
 <div class="input-container">
 <input id="search-input" type="text" placeholder="Search or type web address…">
-<button type="submit" onclick="triggerSearch()"><img src="../assets/search.svg"></img></button>
+<button id="search" type="submit" onclick="triggerSearch()"><img src="../assets/search.svg"></img></button>
 </div>
 
 <dialog id="settings-dialog" style="width: 50%;">
