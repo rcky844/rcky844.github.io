@@ -3,6 +3,21 @@
 <link rel="icon" href="assets/logo.png">
 
 <!-- scripts -->
+<script>
+function createDialogWithPage(pageHref) {
+    const element = document.getElementById("download-dialog");
+    const iframe = document.getElementById("download-dialog-iframe");
+    iframe.setAttribute("src", pageHref);
+    iframe.style.width = "640px";
+    iframe.style.height = "480px";
+    element.showModal();
+}
+
+function destroyDialog() {
+    const element = document.getElementById("download-dialog");
+    element.close();
+}
+</script>
 <script src="https://rawcdn.githack.com/oscarmorrison/md-page/232e97938de9f4d79f4110f6cfd637e186b63317/md-page.js"></script><noscript>
 
 <!-- styles -->
@@ -10,6 +25,10 @@
 
 <!-- content -->
 <object data="fragments/banner.html" width="450" height="95"></object>
+<dialog id="download-dialog">
+<iframe id="download-dialog-iframe"></iframe>
+<div style="display: flex; justify-content: center;"><a href="javascript:destroyDialog();" class="minButton minButton-fab"><img src="assets/close.svg"></img></a></div>
+</dialog>
 
 ---
 
@@ -17,16 +36,16 @@
 
 | Build type | Latest version | Date | Download |
 |--|--|--|--|
-| Stable | Jumpas 6.2.1 (build 38) | 2024-07-02 | <a href="changelogs/build38.html">here</a> |
+| Stable | Jumpas 6.2.1 (build 38) | 2024-07-02 | <a href="#" onclick="createDialogWithPage('changelogs/build38.html')">here</a> |
 | Beta | N/A | N/A | | |
-| Debug | Exotic 7.0 (build 50) | 2024-07-30 | <a href="changelogs/build50.html">here</a> |
+| Debug | Exotic 7.0 (build 50) | 2024-07-30 | <a href="#" onclick="createDialogWithPage('changelogs/build50.html')">here</a> |
 
 ## Changelogs
 <details>
 <summary>Exotic 7.x</summary>
 | Version | Build type | Build extra | Date | Download |
 |--|--|--|--|--|
-| 7.0 (build 50) | Debug | | 2024-07-30 | <a href="changelogs/build50.html">here</a> |
+| 7.0 (build 50) | Debug | | 2024-07-30 | <a href="#" onclick="createDialogWithPage('changelogs/build50.html')">here</a> |
 <!-- Leave a space here -->
 </details>
 
@@ -34,12 +53,12 @@
 <summary>Jumpas 6.2.x</summary>
 | Version | Build type | Build extra | Date | Download |
 |--|--|--|--|--|
-| 6.2.1 (build 38) | Stable | | 2024-07-02 | <a href="changelogs/build38.html">here</a> |
-| 6.2 (build 37) | Stable | | 2024-06-28 | <a href="changelogs/build37.html">here</a> |
-| 6.2 (build 36) | Beta | (Cumulative June 2024 / Patch 2) | 2024-06-25 | <a href="changelogs/build36.html">here</a> |
-| 6.2 (build 35) | Beta | (Cumulative June 2024 / Patch 1) | 2024-06-23 | <a href="changelogs/build35.html">here</a> |
-| 6.2 (build 34) | Beta | (Cumulative June 2024) | 2024-06-23 | <a href="changelogs/build34.html">here</a> |
-| 6.2 (build 31) | Beta | (Cumulative May 2024) | 2024-05-24 | <a href="changelogs/build31.html">here</a> |
+| 6.2.1 (build 38) | Stable | | 2024-07-02 | <a href="#" onclick="createDialogWithPage('changelogs/build38.html')">here</a> |
+| 6.2 (build 37) | Stable | | 2024-06-28 | <a href="#" onclick="createDialogWithPage('changelogs/build37.html')">here</a> |
+| 6.2 (build 36) | Beta | (Cumulative June 2024 / Patch 2) | 2024-06-25 | <a href="#" onclick="createDialogWithPage('changelogs/build36.html')">here</a> |
+| 6.2 (build 35) | Beta | (Cumulative June 2024 / Patch 1) | 2024-06-23 | <a href="#" onclick="createDialogWithPage('changelogs/build35.html')">here</a> |
+| 6.2 (build 34) | Beta | (Cumulative June 2024) | 2024-06-23 | <a href="#" onclick="createDialogWithPage('changelogs/build34.html')">here</a> |
+| 6.2 (build 31) | Beta | (Cumulative May 2024) | 2024-05-24 | <a href="#" onclick="createDialogWithPage('changelogs/build31.html')">here</a> |
 <!-- Leave a space here -->
 </details>
 
@@ -47,13 +66,13 @@
 <summary>Crusader 6.1.x</summary>
 | Version | Build type | Build extra | Date | Download |
 |--|--|--|--|--|
-| 6.1.3 (build 23) | Stable | | 2024-05-25 | <a href="changelogs/build23.html">here</a> |
-| 6.1.2 (build 22) | Stable | | 2024-04-26 | <a href="changelogs/build22.html">here</a> |
-| 6.1.2 (build 21) | Pre-release | | 2024-04-20 | <a href="changelogs/build21.html">here</a> |
-| 6.1.1 (build 20) | Stable | Patch 2 | 2024-04-07 | <a href="changelogs/build20.html">here</a> |
-| 6.1.1 (build 19) | Stable | Patch 1 | 2024-04-06 | <a href="changelogs/build19.html">here</a> |
-| 6.1.1 (build 18) | Stable | | 2024-04-05 | <a href="changelogs/build18.html">here</a> |
-| 6.1.0 (build 17) | Stable | | 2024-04-05 | <a href="changelogs/build17.html">here</a> |
+| 6.1.3 (build 23) | Stable | | 2024-05-25 | <a href="#" onclick="createDialogWithPage('changelogs/build23.html')">here</a> |
+| 6.1.2 (build 22) | Stable | | 2024-04-26 | <a href="#" onclick="createDialogWithPage('changelogs/build22.html')">here</a> |
+| 6.1.2 (build 21) | Pre-release | | 2024-04-20 | <a href="#" onclick="createDialogWithPage('changelogs/build21.html')">here</a> |
+| 6.1.1 (build 20) | Stable | Patch 2 | 2024-04-07 | <a href="#" onclick="createDialogWithPage('changelogs/build20.html')">here</a> |
+| 6.1.1 (build 19) | Stable | Patch 1 | 2024-04-06 | <a href="#" onclick="createDialogWithPage('changelogs/build19.html')">here</a> |
+| 6.1.1 (build 18) | Stable | | 2024-04-05 | <a href="#" onclick="createDialogWithPage('changelogs/build18.html')">here</a> |
+| 6.1.0 (build 17) | Stable | | 2024-04-05 | <a href="#" onclick="createDialogWithPage('changelogs/build17.html')">here</a> |
 <!-- Leave a space here -->
 </details>
 
@@ -79,3 +98,4 @@
 | 6.0.0000.00 (build 1) | Debug | | 2023-11-25 | N/A |
 <!-- Leave a space here -->
 </details>
+
