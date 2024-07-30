@@ -1,32 +1,19 @@
 <!-- html stuffs -->
 <title>Viola Browser</title>
+<link rel="icon" href="assets/logo.png">
 
 <!-- scripts -->
 <script src="https://rawcdn.githack.com/oscarmorrison/md-page/232e97938de9f4d79f4110f6cfd637e186b63317/md-page.js"></script><noscript>
 
 <!-- styles -->
-<style>
-figure {
-    display: inline-block;
-    border: 1px dotted gray;
-    margin: 20px; /* adjust as needed */
-}
-figure img {
-    vertical-align: top;
-}
-figure figcaption {
-    border: 1px dotted blue;
-    text-align: center;
-}
-</style>
+<link rel="stylesheet" href="styles.css">
 
 <!-- content -->
-# <img style="vertical-align: middle;" src="assets/logo.png"> Viola Browser
-Elegant and beautiful Android WebView browser.
+<object data="fragments/banner.html" width="450" height="95"></object>
 
-<div style="display: flex;">
-<a href="download.html"><img src="assets/download.png"></a>
-<a href="https://gitlab.com/TipzTeam/viola"><img src="assets/source.png"></a>
+<div style="display: flex; word-wrap: break-word;">
+<a href="download.html" class="minButton minButton-green">Download</a>
+<a href="https://gitlab.com/TipzTeam/viola" class="minButton minButton-blue">Source Code</a>
 </div>
 
 ---
@@ -51,7 +38,7 @@ Viola Browser currently requires at least **API Level 19**, and is **2.1 MiB** i
 - Viewing page source
 - Favourites & History
 - Recents-based multi-tab
-- Pull to refresh smart disable on sites (e.g. Maps)
+- Pull-to-refresh + Smart disable on Maps
 - Printing
 
 ### Upcoming features
