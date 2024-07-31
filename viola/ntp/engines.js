@@ -8,7 +8,7 @@ var engines = {
         "name": "Google",
         "homePage": "https://www.google.com",
         "search": "{home}/search?q={query}",
-        "suggestion": "http://suggestqueries.google.com/complete/search?client=android&oe=utf8&ie=utf8&q={query}&hl={language}",
+        "suggestion": "https://suggestqueries.google.com/complete/search?client=android&oe=utf8&ie=utf8&q={query}&hl={language}",
     },
     "baidu": {
         "name": "Baidu",
