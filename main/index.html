@@ -4,7 +4,11 @@
 
 <!-- styles -->
 <link rel="stylesheet" href="../styles.css">
-<link rel="stylesheet" href="styles.css">
+<style>
+.card-details {
+   background-color: #1e779622
+}
+</style>
 
 <!-- scripts -->
 <script>
@@ -33,7 +37,7 @@ window.onload = function() {
 <hr>
 
 <div class="vertical-center-container">
-<div class="card card-small">
+<div class="section card">
 <h3>Welcome!</h3>
 <p>Welcome to my website, hosting information about my work. 👋</p>
 <p>I am a 16 years old currently residing in Hong Kong, with a vested interest in programming, biology, chemistry, space exploration, arts and history. And a lot of whales! 🐳</p>
@@ -44,13 +48,13 @@ window.onload = function() {
 </div>
 
 <div class="vertical-center-container">
-<div class="card">
-<h3 style="display: flex; justify-content: center;">Places of interest</h3>
+<div class="section">
+<h3>Places of interest</h3>
 
 <!-- Container 1 -->
 <div class="vertical-center-container">
 <!-- Group 1 -->
-<div class="card card-tiny card-hover-none">
+<div class="section card-details">
 <h4>Group chats & Channels 💬</h4>
 <a href="https://t.me/TipzTeamCommunity"><p>Tipz Team | Community</p></a>
 <a href="https://t.me/LenovoPhab"><p>Lenovo PHAB devices Community</p></a>
@@ -59,14 +63,14 @@ window.onload = function() {
 </div>
 
 <!-- Group 2 -->
-<div class="card card-tiny card-hover-none">
+<div class="section card-details">
 <h4>Open source 🌲</h4>
 <a href="https://gitlab.com/TipzTeam"><p>Tipz Team GitLab</p></a>
 <a href="https://github.com/TipzRickyCheung"><p>Personal GitHub</p></a>
 </div>
 
 <!-- Group 3 -->
-<div class="card card-tiny card-hover-none">
+<div class="section card-details">
 <h4>Accounts 🌐</h4>
 <a href="https://xdaforums.com/m/rcky844.10273523"><p>XDA Developers Forum Page</p></a>
 <a href="https://www.instagram.com/tipzteam"><p>Tipz Team Instagram</p></a>
@@ -78,14 +82,14 @@ window.onload = function() {
 <!-- Container 2 -->
 <div class="vertical-center-container">
 <!-- Group 1 -->
-<div class="card card-tiny card-hover-none">
+<div class="section card-details">
 <h4>Applications 📱</h4>
 <a href="../viola/"><p>Viola Browser</p></a>
 <a href="https://gitlab.com/TipzTeam/Circlue"><p>Circlue (Wearable Launcher)</p></a>
 </div>
 
 <!-- Group 2 -->
-<div class="card card-tiny card-hover-none">
+<div class="section card-details">
 <h4>Downloads ⬇️</h4>
 <a href="https://sourceforge.net/projects/tipzbuilds"><p>SourceForge</p></a>
 <a href="https://pan.baidu.com/s/1vw4Q5FaZd9KdVn3P4qxUcw?pwd=rcky"><p>Baidu Pan (Mirror of SourceForge)</p></a>
@@ -95,40 +99,40 @@ window.onload = function() {
 </div>
 
 <div class="vertical-center-container">
-<div class="card">
+<div class="section">
 <h3>My Setup</h3>
 
 <!-- Container 1 -->
 <div class="vertical-center-container">
 <!-- Group 1 -->
-<div class="card card-tiny card-center-left card-hover-none">
+<div class="section section-left card-details">
 <h4>Desktop (MS-iCraft Z690 ITX)</h4>
-<p class="margin-tiny">CPU: Intel Core i9-13900 (ES)</p>
-<p class="margin-tiny">iGPU: Intel UHD 770</p>
-<p class="margin-tiny">RAM: 2* 16GB Gloway DDR5 (5200MHz)</p>
-<p class="margin-tiny">NVMe: 512GB Gloway</p>
-<p class="margin-tiny">SSD: 320GB Colorful SL500</p>
-<p class="margin-tiny">HDD: 320GB Toshiba</p>
-<p class="margin-tiny">OS: KDE / Arch Linux</p>
+<p class="no-margin">CPU: Intel Core i9-13900 (ES)</p>
+<p class="no-margin">iGPU: Intel UHD 770</p>
+<p class="no-margin">RAM: 2* 16GB Gloway DDR5 (5200MHz)</p>
+<p class="no-margin">NVMe: 512GB Gloway</p>
+<p class="no-margin">SSD: 320GB Colorful SL500</p>
+<p class="no-margin">HDD: 320GB Toshiba</p>
+<p class="no-margin">OS: KDE / Arch Linux</p>
 </div>
 
 <!-- Group 2 -->
-<div class="card card-tiny card-center-left card-hover-none">
+<div class="section section-left card-details">
 <h4>Laptop (Lenovo Yoga 7 14IAL7 QS)</h4>
-<p class="margin-tiny">CPU: Intel Core i7-1260P</p>
-<p class="margin-tiny">iGPU: Intel Iris Pro</p>
-<p class="margin-tiny">RAM: 16GB DDR4</p>
-<p class="margin-tiny">NVMe: 512GB Micron</p>
-<p class="margin-tiny">OS: KDE / Arch Linux</p>
+<p class="no-margin">CPU: Intel Core i7-1260P</p>
+<p class="no-margin">iGPU: Intel Iris Pro</p>
+<p class="no-margin">RAM: 16GB DDR4</p>
+<p class="no-margin">NVMe: 512GB Micron</p>
+<p class="no-margin">OS: KDE / Arch Linux</p>
 </div>
 
 <!-- Group 3 -->
-<div class="card card-tiny card-center-left card-hover-none">
+<div class="section section-left card-details">
 <h4>Tablet (Surge Tab PH-101)</h4>
-<p class="margin-tiny">CPU: Intel Celeron N2910</p>
-<p class="margin-tiny">RAM: 4GB</p>
-<p class="margin-tiny">SSD: 64GB</p>
-<p class="margin-tiny">OS: KDE / Arch Linux</p>
+<p class="no-margin">CPU: Intel Celeron N2910</p>
+<p class="no-margin">RAM: 4GB</p>
+<p class="no-margin">SSD: 64GB</p>
+<p class="no-margin">OS: KDE / Arch Linux</p>
 </div>
 </div>
 

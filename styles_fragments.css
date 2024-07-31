@@ -1,0 +1,17 @@
+body {
+    padding: 0px;
+}
+
+a.inherit {
+    color: inherit;
+    text-decoration: inherit;
+}
+
+img {
+    width: 64px;
+    vertical-align: middle;
+}
+
+p {
+    color: #666;
+}

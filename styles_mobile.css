@@ -1,10 +1,12 @@
-/* Cards */
-.card-container {
+/* Common for this website on mobile */
+/* Containers */
+.vertical-center-container {
     display: inline;
     justify-content: center;
 }
 
-.card {
+/* Section & Cards */
+.section {
     width: 100%;
     border-radius: 8px;
     border: none;
@@ -13,12 +15,10 @@
     padding: 0px;
 }
 
-.card:hover {
+.section:hover { /* Disable hover shadow */
     box-shadow: 0 1px 2px 0 rgba(0,0,0,.15);
 }
 
-.card-tiny {
+.card {
     width: 70%;
-    padding: 16px;
-    margin: 16px;
 }

@@ -87,6 +87,46 @@ a.button-circle {
     padding:16px;
 }
 
+/* Section & Cards */
+.section {
+    width: 70%;
+    border-radius: 8px;
+    border: 2px solid #ccc;
+    overflow: hidden;
+    display: inline-block;
+    box-shadow: 0 1px 2px 0 rgba(0,0,0,.15);
+    margin: 16px;
+    margin-bottom: 28px;
+    margin-top: 28px;
+    padding: 16px;
+    min-height: 200px;
+    position: relative;
+    transition: all .2s ease-in-out;
+    text-align: center;
+}
+
+.section:hover {
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+
+.section-left { /* Overrides section */
+    text-align: left;
+}
+
+.card { /* Overrides section */
+    width: 50%;
+}
+
+.card-details { /* Overrides section */
+    width: 20%;
+    border: none;
+    background: #eeeeee66
+}
+
+.card-details:hover { /* Overrides section:hover */
+    box-shadow: 0 1px 2px 0 rgba(0,0,0,.15);
+}
+
 /* Gallery */
 figure {
     display: inline-block;
@@ -118,4 +158,11 @@ summary {
 
 summary:hover {
     background-color: #33333333;
+}
+
+/* Text */
+p.no-margin {
+    margin: 0px;
+    margin-top: 4px;
+    margin-bottom: 4px;
 }
