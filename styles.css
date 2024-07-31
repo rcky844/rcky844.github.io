@@ -128,6 +128,11 @@ a.button-circle {
 }
 
 /* Gallery */
+.gallery {
+    overflow: auto;
+    white-space: nowrap;
+}
+
 figure {
     display: inline-block;
     border: 1px dotted gray;
