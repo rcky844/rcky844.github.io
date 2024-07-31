@@ -38,7 +38,84 @@ td, th {
 }
 
 /* Common for this website */
+/* Containers */
 .vertical-center-container {
     display: flex;
     justify-content: center;
+}
+
+/* Buttons */
+button, a.button {
+    background-color:#8845c7;
+    border-radius:28px;
+    display:inline-block;
+    cursor:pointer;
+    color:#ffffff;
+    font-size:18px;
+    padding:16px 32px;
+    margin: 8px;
+    text-decoration:none;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+button:hover, a.button:hover {
+    background-color:#822abd;
+}
+
+button:active, a.button:active {
+    position:relative;
+    top:1px;
+}
+
+a.button-green {
+    background-color:#009c2a;
+}
+
+a.button-green:hover {
+    background-color:#31ad18;
+}
+
+a.button-blue {
+    background-color:#459ac7;
+}
+
+a.button-blue:hover {
+    background-color:#37a1e8;
+}
+
+a.button-circle {
+    padding:16px;
+}
+
+/* Gallery */
+figure {
+    display: inline-block;
+    border: 1px dotted gray;
+    margin: 20px; /* adjust as needed */
+}
+
+figure img {
+    vertical-align: top;
+}
+
+figure figcaption {
+    border: 1px dotted blue;
+    text-align: center;
+}
+
+/* Details */
+details {
+    cursor: pointer;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+}
+
+summary {
+    padding: 18px;
+}
+
+summary:hover {
+    background-color: #33333333;
 }
