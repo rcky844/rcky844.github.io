@@ -36,3 +36,9 @@ td, th {
     border: 1px solid #ddd;
     padding: 10px 13px;
 }
+
+/* Common for this website */
+.vertical-center-container {
+    display: flex;
+    justify-content: center;
+}
