@@ -1,0 +1,50 @@
+<!-- html stuffs -->
+<title>Nightly 20230609 - Browservio</title>
+
+<!-- styles -->
+<link rel="stylesheet" href="/styles.css">
+
+<!-- content -->
+<h2>Browservio Nightly 20230609</h2>
+<p>Released: 2023-06-09</p>
+
+<hr>
+
+<p>Welcome to the Browservio Nightly, a variant of Browservio with the latest features in development released every so often. This variant will not replace the release variant and is intended for testing purposes, so expect bugs and crashes to occur at random. Be sure to report any bugs or crashes to the Issues tab. Happy Browservio-ing!</p>
+
+<h3>Changelogs</h3>
+<p>Changes:</p>
+<ul>
+<li>Added non-functional placeholders for advanced tab management system</li>
+<ul>
+<li>Added settings for switching between Recents-based tab management and placeholder</li>
+</ul>
+<li>Added a work-in-progress start page (accessible via browservio://start)</li>
+<li>Added support for customizing ad server list</li>
+</ul>
+
+<p>Technical changes:</p>
+<ul>
+<li>Initial support for loading with advanced tab management system</li>
+<li>Switched clearing Preferences to custom preferences</li>
+<li>Switched SwitchPreference to custom preferences</li>
+<li>Improved ad blocking response to servers</li>
+</ul>
+
+<p>Design changes:</p>
+<ul>
+<li>Matched the colour of progress bars in both Browser and CustomTabs tabbies</li>
+</ul>
+
+<p>Bug fixes:</p>
+<ul>
+<li>#41 - <code>NullPointerException</code> in CustomTabs if url is null</li>
+<li>#42 - Failure to open data URI</li>
+<li>INTERNAL-04 Action bar is cut-off in reach mode</li>
+<li>INTERNAL-05 Text going out of view bounds like "Browservio Debug" in about dialog</li>
+<li>INTERNAL-06 Script execution is not detected as blocked properly</li>
+</ul>
+
+<h3>Resources</h3>
+<a class="button button-green" href="https://gitlab.com/-/project/22143649/uploads/3abee35f52f2430d7ae344d71bec7a43/app-nightly.apk">Download</a>
+<a class="button button-blue" href="https://gitlab.com/TipzTeam/viola/-/tree/5.0_fruitbat_nightly_20230609">Source Code</a>

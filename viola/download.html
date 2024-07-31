@@ -6,42 +6,7 @@
 <link rel="stylesheet" href="/styles.css">
 
 <!-- scripts -->
-<script>
-function detectMobile() {
-   return window.innerWidth <= 800 || window.innerHeight <= 600;
-}
-
-function createDialogPage(pageHref) {
-    const element = document.getElementById("download-dialog");
-    if (detectMobile()) {
-        element.style.maxWidth = "100%";
-        element.style.maxHeight = "100%";
-        element.style.width = "100%";
-        element.style.height = "100%";
-        element.style.padding = 0;
-    }
-
-    const iframe = document.getElementById("download-dialog-iframe");
-    iframe.setAttribute("src", pageHref);
-    if (detectMobile()) {
-        iframe.style.width = window.innerWidth - 10;
-        iframe.style.height = window.innerHeight - 200;
-    } else {
-        iframe.style.width = "640px";
-        iframe.style.height = "480px";
-    }
-    element.showModal();
-}
-
-function createDialogBuildPage(build) {
-    createDialogPage('changelogs/build' + build + '.html');
-}
-
-function destroyDialog() {
-    const element = document.getElementById("download-dialog");
-    element.close();
-}
-</script>
+<script src="download_dialog.js"></script>
 
 <!-- content -->
 <object style="width:100%" data="fragments/banner.html" height="95"></object>
@@ -82,6 +47,8 @@ function destroyDialog() {
 </table>
 
 <h2>Changelogs</h2>
+
+<h3>Version 7.x</h3>
 <details>
 <summary>Exotic 7.x</summary>
 <table>
@@ -104,6 +71,7 @@ function destroyDialog() {
 </table>
 </details>
 
+<h3>Version 6.x</h3>
 <details>
 <summary>Jumpas 6.2.x</summary>
 <table>
@@ -166,217 +134,7 @@ function destroyDialog() {
 </table>
 </details>
 
-<details>
-<summary>Crusader 6.1.x</summary>
-<table>
-<tr>
-<th>Version</th>
-<th>Build number</th>
-<th>Build type</th>
-<th>Build extra</th>
-<th>Date</th>
-<th>Download</th>
-</tr>
-<tr>
-<td>6.1.3</td>
-<td>23</td>
-<td>Stable</td>
-<td></td>
-<td>2024-05-25</td>
-<td><a href="#" onclick="createDialogBuildPage(23)">here</a></td>
-</tr>
-<tr>
-<td>6.1.2</td>
-<td>22</td>
-<td>Stable</td>
-<td></td>
-<td>2024-04-26</td>
-<td><a href="#" onclick="createDialogBuildPage(22)">here</a></td>
-</tr>
-<tr>
-<td>6.1.2</td>
-<td>21</td>
-<td>Pre-release</td>
-<td></td>
-<td>2024-04-20</td>
-<td><a href="#" onclick="createDialogBuildPage(21)">here</a></td>
-</tr>
-<tr>
-<td>6.1.1</td>
-<td>20</td>
-<td>Stable</td>
-<td>Patch 2</td>
-<td>2024-04-07</td>
-<td><a href="#" onclick="createDialogBuildPage(20)">here</a></td>
-</tr>
-<tr>
-<td>6.1.1</td>
-<td>19</td>
-<td>Stable</td>
-<td>Patch 1</td>
-<td>2024-04-06</td>
-<td><a href="#" onclick="createDialogBuildPage(19)">here</a></td>
-</tr>
-<tr>
-<td>6.1.1</td>
-<td>18</td>
-<td>Stable</td>
-<td></td>
-<td>2024-04-05</td>
-<td><a href="#" onclick="createDialogBuildPage(18)">here</a></td>
-</tr>
-<tr>
-<td>6.1.0</td>
-<td>17</td>
-<td>Stable</td>
-<td></td>
-<td>2024-04-05</td>
-<td><a href="#" onclick="createDialogBuildPage(17)">here</a></td>
-</tr>
-</table>
-</details>
-
-<details>
-<summary>Viola 6.0.x</summary>
-<table>
-<tr>
-<th>Version</th>
-<th>Build number</th>
-<th>Build type</th>
-<th>Build extra</th>
-<th>Date</th>
-<th>Download</th>
-</tr>
-<tr>
-<td>6.0.0007.02</td>
-<td>16</td>
-<td>Stable</td>
-<td></td>
-<td>2024-03-03</td>
-<td><a href="changelogs/build16.html">here</a></td>
-</tr>
-<tr>
-<td>6.0.0007.01</td>
-<td>15</td>
-<td>Stable</td>
-<td></td>
-<td>2024-02-12</td>
-<td><a href="changelogs/build15.html">here</a></td>
-</tr>
-<tr>
-<td>6.0.0007.00</td>
-<td>14</td>
-<td>Stable (Test)</td>
-<td></td>
-<td>2023-12-29</td>
-<td><a href="changelogs/build14.html">here</a></td>
-</tr>
-<tr>
-<td>6.0.0006.03</td>
-<td>13</td>
-<td>Stable (Test)</td>
-<td></td>
-<td>2023-12-26</td>
-<td><a href="changelogs/build13.html">here</a></td>
-</tr>
-<tr>
-<td>6.0.0006.02</td>
-<td>12</td>
-<td>Beta</td>
-<td></td>
-<td>2023-12-04</td>
-<td><a href="changelogs/build12.html">here</a></td>
-</tr>
-<tr>
-<td>6.0.0006.01</td>
-<td>11</td>
-<td>Beta</td>
-<td></td>
-<td>2023-11-27</td>
-<td><a href="changelogs/build11.html">here</a></td>
-</tr>
-<tr>
-<td>6.0.0006.00</td>
-<td>10</td>
-<td>Debug</td>
-<td></td>
-<td>2023-11-27</td>
-<td><a href="changelogs/build10.html">here</a></td>
-</tr>
-<tr>
-<td>6.0.0005.00</td>
-<td>9</td>
-<td>Beta</td>
-<td></td>
-<td>2023-11-27</td>
-<td><a href="changelogs/build9.html">here</a></td>
-</tr>
-<tr>
-<td>6.0.0004.00</td>
-<td>8</td>
-<td>Debug</td>
-<td></td>
-<td>2023-11-27</td>
-<td><a href="changelogs/build8.html">here</a></td>
-</tr>
-<tr>
-<td>6.0.0003.01</td>
-<td>7</td>
-<td>Debug</td>
-<td></td>
-<td>2023-11-26</td>
-<td><a href="changelogs/build7.html">here</a></td>
-</tr>
-<tr>
-<td>6.0.0003.00</td>
-<td>6</td>
-<td>Debug</td>
-<td></td>
-<td>2023-11-26</td>
-<td><a href="changelogs/build6.html">here</a></td>
-</tr>
-<tr>
-<td>6.0.0002.01</td>
-<td>5</td>
-<td>Debug</td>
-<td></td>
-<td>2023-11-26</td>
-<td><a href="changelogs/build5.html">here</a></td>
-</tr>
-<tr>
-<td>6.0.0002.00</td>
-<td>4</td>
-<td>Debug</td>
-<td></td>
-<td>2023-11-25</td>
-<td>N/A</td>
-</tr>
-<tr>
-<td>6.0.0001.00</td>
-<td>3</td>
-<td>Debug</td>
-<td></td>
-<td>2023-11-25</td>
-<td>N/A</td>
-</tr>
-<tr>
-<td>6.0.0000.01</td>
-<td>2</td>
-<td>Debug</td>
-<td></td>
-<td>2023-11-25</td>
-<td>N/A</td>
-</tr>
-<tr>
-<td>6.0.0000.00</td>
-<td>1</td>
-<td>Debug</td>
-<td></td>
-<td>2023-11-25</td>
-<td>N/A</td>
-</tr>
-</table>
-</details>
+<p>Please see the "<a href="discontinued_download.html">Changelogs for discontinued versions</a>" page for discontinued versions of Viola Browser and Browservio.</p>
 
 <hr>
 
