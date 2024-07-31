@@ -85,15 +85,16 @@ function setDefaultsFromStorage() {
     engineSelect.value = localStorage.getItem('ntp-engine');
 
     // Set the value for hide-home
-    var engineSelect = document.getElementById('hide-home');
-    engineSelect.checked = localStorage.getItem('ntp-hide-home');
-    updateHideHome(engineSelect.checked);
+    var hideHome = document.getElementById('hide-home');
+    var isHideHome = localStorage.getItem('ntp-hide-home');
+    hideHome.checked = isHideHome;
+    updateHome(isHideHome);
 }
 
-function updateHideHome(value) {
-    // Update hide-home
+function updateHome(value) {
+    // Update home
     var homeButton = document.getElementById("home");
-    if (value) {
+    if (value == true || value == 'true') {
         homeButton.style.visibility = "hidden";
     } else {
         homeButton.style.visibility = "visible";
@@ -115,7 +116,7 @@ function fixInputContainerForMobile() {
     }
 }
 
-window.onload = function() {
+document.addEventListener('DOMContentLoaded', async (event) => {
     loadEngines();
     setDefaultsFromStorage();
     fixInputContainerForMobile();
@@ -132,10 +133,10 @@ window.onload = function() {
     // Setup hide-home checkbox listener
     var hideHome = document.getElementById('hide-home');
     hideHome.addEventListener('change', (event) => {
-        updateHideHome(event.currentTarget.checked);
         localStorage.setItem('ntp-hide-home', event.currentTarget.checked);
+        updateHome(event.currentTarget.checked);
     });
-}
+});
 </script>
 
 <!-- content -->
