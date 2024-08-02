@@ -2,11 +2,11 @@
   "stable": {
     "channel_name": "Stable",
     "channel_data": {
-      "name": "6.2.1",
-      "code": 38,
-      "date": "2024-07-02",
-      "download_url": "https://gitlab.com/-/project/22143649/uploads/32238a734baa0aad94405328429af5cb/app-release.apk",
-      "changelog_url": "https://rcky844.github.io/viola/changelogs/build38.html"
+      "name": "6.3",
+      "code": 39,
+      "date": "2024-08-02",
+      "download_url": "https://gitlab.com/-/project/22143649/uploads/5a5a5bc5b2a190072f87193a70334c01/app-release.apk",
+      "changelog_url": "https://rcky844.github.io/viola/changelogs/build39.html"
     }
   },
   "next": {
