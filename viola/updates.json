@@ -13,10 +13,10 @@
     "channel_name": "Next",
     "channel_data": {
       "name": "7.0",
-      "code": 52,
+      "code": 53,
       "date": "2024-08-02",
-      "download_url": "https://gitlab.com/-/project/22143649/uploads/caf5fa5991514165bfb4477970058fbb/app-next.apk",
-      "changelog_url": "https://rcky844.github.io/viola/changelogs/build52.html"
+      "download_url": "https://gitlab.com/-/project/22143649/uploads/1f33f18bf216bd8ec1d205c7299d9f1d/app-next.apk",
+      "changelog_url": "https://rcky844.github.io/viola/changelogs/build53.html"
     }
   }
 }
