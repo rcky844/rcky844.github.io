@@ -1,0 +1,49 @@
+<!-- html stuffs -->
+<title>Exotic 7.0 (build 55) - Viola Browser</title>
+
+<!-- styles -->
+<link rel="stylesheet" href="/styles.css">
+
+<!-- content -->
+<h2>Exotic 7.0 (build 55)</h2>
+<p>Released: 2024-08-03</p>
+
+<hr>
+
+<h3>Information</h3>
+<p>This build is a proof-of-concept for the upcoming Exotic 7.0 update. Many features still weren't added yet, or doesn't have full functionality, but getting this build out early can allow testers to provide feedback.</p>
+
+<h3>Changelogs</h3>
+<p>Features:</p>
+<ul>
+<li>Restored support for API 14 - 18</li>
+<li>Added support for resolving Bussin WebX websites (<code>buss://</code>)</li>
+</ul>
+
+<p>Behavior changes:</p>
+<ul>
+<li>Startpage: Disabled non-functional search input box when JavaScript is disabled</code></li>
+<li>Settings: Added support for multi-flavoured builds</li>
+</ul>
+
+<p>Bug fixes:</p>
+<ul>
+<li>Fixed view source</li>
+<li>Fixed compatibility with other URI schemes</li>
+<li>Fixed possible vulnerabilities with <code>ViolaBrowser.focusInputBox()</code>.<br>For more details on this, please refer to the last build's changelogs.</li>
+</ul>
+
+<h3>Notes for introducing new build flavors</h3>
+<p>This build reintroduced support for older devices running Android 4.0.x - 4.3.x, via a custom legacy flavor. This legacy build targets API 19, and has a <code>minSdk</code> of 14</p>
+<p> Please note that the modern build flavor now has a <code>minSdk</code> of 21. Previous Android 4.4 KitKat users may need to update to the legacy build manually. This change is done in preparation for supporting more advanced features.</p>
+
+<h3>Known bugs / vulnerabilities</h3>
+<ul>
+<li>Features may crash the browser on legacy builds on older APIs.</li>
+<li>Ad servers may fail to download.</li>
+</ul>
+
+<h3>Resources</h3>
+<a class="button button-green" href="https://gitlab.com/-/project/22143649/uploads/32d4daca89e1557b3f470b2e5a9ef1a8/app-modern-next.apk">Download (Modern)</a>
+<a class="button" href="https://gitlab.com/-/project/22143649/uploads/3352e755a9c9de3650ed7986c929a4ae/app-legacy-next.apk">Download (Legacy)</a>
+<a class="button button-blue" href="https://gitlab.com/TipzTeam/viola/-/tree/a4d4e5a2171263302d789a401f8321a9a2681793">Source Code</a>
