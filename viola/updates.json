@@ -24,17 +24,17 @@
     },
     "channel_data_modern": {
       "name": "7.0",
-      "code": 55,
-      "date": "2024-08-03",
-      "download_url": "https://gitlab.com/-/project/22143649/uploads/b01701d21259215bb5bf8d4bfa75b45e/app-modern-next.apk",
-      "changelog_url": "https://rcky844.github.io/viola/changelogs/build55.html"
+      "code": 56,
+      "date": "2024-08-04",
+      "download_url": "https://gitlab.com/-/project/22143649/uploads/dc87d5b1cbe0995f3a30dc2b5586f36d/app-modern-next.apk",
+      "changelog_url": "https://rcky844.github.io/viola/changelogs/build56.html"
     },
     "channel_data_legacy": {
       "name": "7.0",
       "code": 55,
-      "date": "2024-08-03",
-      "download_url": "https://gitlab.com/-/project/22143649/uploads/3b31e3478ebaf0d51ee90a250ae02cc1/app-legacy-next.apk",
-      "changelog_url": "https://rcky844.github.io/viola/changelogs/build55.html"
+      "date": "2024-08-04",
+      "download_url": "https://gitlab.com/-/project/22143649/uploads/d2119f8f9143c1091ce2a4257e52e33f/app-legacy-next.apk",
+      "changelog_url": "https://rcky844.github.io/viola/changelogs/build56.html"
     }
   }
 }
