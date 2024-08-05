@@ -5,8 +5,7 @@
       "name": "6.3",
       "code": 39,
       "date": "2024-08-02",
-      "download_url": "https://gitlab.com/-/project/22143649/uploads/5a5a5bc5b2a190072f87193a70334c01/app-release.apk",
-      "changelog_url": "https://rcky844.github.io/viola/changelogs/build39.html"
+      "download_url": "https://gitlab.com/-/project/22143649/uploads/5a5a5bc5b2a190072f87193a70334c01/app-release.apk"
     },
     "channel_data_modern": {
     },
@@ -19,22 +18,19 @@
       "name": "7.0",
       "code": 55,
       "date": "2024-08-03",
-      "download_url": "https://gitlab.com/-/project/22143649/uploads/b01701d21259215bb5bf8d4bfa75b45e/app-modern-next.apk",
-      "changelog_url": "https://rcky844.github.io/viola/changelogs/build55.html"
+      "download_url": "https://gitlab.com/-/project/22143649/uploads/b01701d21259215bb5bf8d4bfa75b45e/app-modern-next.apk"
     },
     "channel_data_modern": {
       "name": "7.0",
-      "code": 57,
-      "date": "2024-08-05",
-      "download_url": "https://gitlab.com/-/project/22143649/uploads/18d56939c1695a6094e1677397cd209d/app-modern-next.apk",
-      "changelog_url": "https://rcky844.github.io/viola/changelogs/build57.html"
+      "code": 58,
+      "date": "2024-08-06",
+      "download_url": "https://gitlab.com/-/project/22143649/uploads/d00ca8ea1e65124a9e403fb2d44a8018/app-modern-next.apk"
     },
     "channel_data_legacy": {
       "name": "7.0",
-      "code": 57,
-      "date": "2024-08-05",
-      "download_url": "https://gitlab.com/-/project/22143649/uploads/20c7d33730100fa2b841d96e3a89be35/app-legacy-next.apk",
-      "changelog_url": "https://rcky844.github.io/viola/changelogs/build57.html"
+      "code": 58,
+      "date": "2024-08-06",
+      "download_url": "https://gitlab.com/-/project/22143649/uploads/3db810a816e0b2ff3bbe69a870da3307/app-legacy-next.apk"
     }
   }
 }
