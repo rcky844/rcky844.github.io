@@ -3,11 +3,15 @@
     "channel_name": "Stable",
     "channel_data": {
       "name": "6.3",
-      "code": 39,
-      "date": "2024-08-02",
-      "download_url": "https://gitlab.com/-/project/22143649/uploads/5a5a5bc5b2a190072f87193a70334c01/app-release.apk"
+      "code": 40,
+      "date": "2024-08-06",
+      "download_url": "https://gitlab.com/-/project/22143649/uploads/18cd28d4e9b83397e6f43c4d3aa2c34c/app-release.apk"
     },
     "channel_data_modern": {
+      "name": "6.3",
+      "code": 40,
+      "date": "2024-08-06",
+      "download_url": "https://gitlab.com/-/project/22143649/uploads/18cd28d4e9b83397e6f43c4d3aa2c34c/app-release.apk"
     },
     "channel_data_legacy": {
     }
