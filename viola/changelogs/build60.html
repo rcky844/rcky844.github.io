@@ -1,0 +1,59 @@
+<!-- html stuffs -->
+<title>Exotic 7.0 (build 60) - Viola Browser</title>
+
+<!-- styles -->
+<link rel="stylesheet" href="/styles.css">
+
+<!-- content -->
+<h2>Exotic 7.0 (build 60)</h2>
+<p>Released: 2024-08-09</p>
+
+<hr>
+
+<h3>Information</h3>
+<p>Tipz Team is releasing <b>Exotic 7.0 (build 60)</b> today in preparing for the upcoming Viola 7.0 Exotic Beta 1. </p>
+<p>The Viola 7.0 Exotic update aims to introduce many useful features that will enhance the user experience. In this version, we plan to include many tweaks to the user interface, new Startpage, Download Manager and Scriptloader. Currently, we are around 60% done on the development of these features.</p>
+<p>Please feel free to provide input on the direction that Viola 7.0 should continue in over at our <a href="https://gitlab.com/TipzTeam/viola/-/issues">GitLab Issues page</a></p>
+
+<h3>Changelogs</h3>
+<details>
+<summary>Features</summary>
+<ul>
+<li>Long clicking on the URL input box now opens the SSL Info dialog</li>
+<li>Long clicking on a search suggestions entry now copies it to the URL input box</li>
+<li>Long clicking on share button now copies the page's URL</li>
+<li>Custom user agent dialog now shows the current user agent</li>
+</ul>
+</details>
+<details>
+<summary>Behaviour changes</summary>
+<ul>
+<li>Web content force dark is enabled by default again</li>
+<li>Use new Google search suggestions JSON to avoid XSSI attacks</li>
+<li>Now resolves encoding properly</li>
+<li>Improved URL input box & keyboard auto close handling behavior</li>
+<li>Restructured about dialog</li>
+</ul>
+</details>
+<details>
+<summary>Bug fixes</summary>
+<ul>
+<li><code>about</code> URIs are accepted once again</li>
+<li>Search suggestions now update properly</li>
+<li>Remove <code>wv</code> from the user agent to prevent detection again</li>
+</ul>
+</details>
+
+<h3>Known bugs / Missing features</h3>
+<ul>
+<li>Download Manager: Internal download manager doesn't support HTTP/FTP downloads yet</li>
+<li>Scriptloader: Doesn't exist yet</li>
+<li>Bussin WebX: Relative links are not supported</li>
+<li>Bussin WebX: Lua scripts are not supported</li>
+<li>Browser: URL input box loads search engine page with blank character</li>
+</ul>
+
+<h3>Resources</h3>
+<a class="button button-green" href="https://gitlab.com/-/project/22143649/uploads/542fbe2ff2ed631f4d4443d5924c08a6/app-modern-next.apk">Download (Modern)</a>
+<a class="button" href="https://gitlab.com/-/project/22143649/uploads/66b03686fc7534062318892cbcac2a35/app-legacy-next.apk">Download (Legacy)</a>
+<a class="button button-blue" href="https://gitlab.com/TipzTeam/viola/-/tree/f04076f989b3e0137953e764e3e9e602d5efce7e">Source Code</a>
