@@ -3,10 +3,10 @@ layout: Post
 title: Viola Browser
 feed: hide
 date: 2024-10-25
-permalink: /viola
+permalink: /viola/
 ---
 
-> Downloads are currently unavailable, we are sorry for the inconvenience caused!
+[![Download](https://gist.github.com/cxmeel/0dbc95191f239b631c3874f4ccf114e2/raw/download.svg)](/viola/downloads)
 
 # About
 Viola Browser is a [WebView](https://en.wikipedia.org/wiki/WebView)-based Android web browser. The goal is to create a browser that embodies the beauty and functionality of most mainstream browsers, while making it as lightweight as possible. It was originally called Browservio and has been in active development since 2020.
