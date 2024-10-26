@@ -70,23 +70,23 @@ figure figcaption {
 </style>
 <div class="gallery">
     <figure>
-        <img src="assets/img/viola/screenshot_1.png" alt="Startpage" width="200">
+        <img src="/assets/img/viola/screenshot_1.png" alt="Startpage" width="200">
         <figcaption>Startpage</figcaption>
     </figure>
     <figure>
-        <img src="assets/img/viola/screenshot_2.png" alt="History" width="200">
+        <img src="/assets/img/viola/screenshot_2.png" alt="History" width="200">
         <figcaption>History</figcaption>
     </figure>
     <figure>
-        <img src="assets/img/viola/screenshot_3.png" alt="Settings" width="200">
+        <img src="/assets/img/viola/screenshot_3.png" alt="Settings" width="200">
         <figcaption>Settings</figcaption>
     </figure>
     <figure>
-        <img src="assets/img/viola/screenshot_4.png" alt="Custom Tabs" width="200">
+        <img src="/assets/img/viola/screenshot_4.png" alt="Custom Tabs" width="200">
         <figcaption>Custom Tabs</figcaption>
     </figure>
     <figure>
-        <img src="assets/img/viola/screenshot_5.png" alt="Startpage with wallpaper" width="200">
+        <img src="/assets/img/viola/screenshot_5.png" alt="Startpage with wallpaper" width="200">
         <figcaption>Startpage with wallpaper</figcaption>
     </figure>
 </div>
