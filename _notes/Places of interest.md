@@ -7,6 +7,8 @@ permalink: /places
 format: list
 ---
 
+[See my setup!](/setup)
+
 ## Group chats & Channels 💬
 - [Tipz Team \| Community](https://t.me/TipzTeamCommunity)
 - [Lenovo PHAB devices Community](https://t.me/LenovoPhab)
