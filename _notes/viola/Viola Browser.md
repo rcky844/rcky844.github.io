@@ -14,7 +14,7 @@ Viola Browser is a [WebView](https://en.wikipedia.org/wiki/WebView)-based Androi
 
 Viola Browser currently requires at least **API Level 14**, and is **2.2 MiB** in size.
 
-You can now have the same startpage on any browsers, even on your computer too! Set [this](/ntp) page as your "New Tab" page today
+You can now have the same startpage on any browsers, even on your computer too! Set [this](/viola/ntp) page as your "New Tab" page today
 
 > This project is currently in maintenance mode!
 > 
