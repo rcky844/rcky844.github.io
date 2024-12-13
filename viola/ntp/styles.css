@@ -1,0 +1,82 @@
+body {
+    font-family:  "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-align: center;
+    margin-top: 20em;
+    background-color: black;
+}
+
+h2, h4, select, label {
+    color: white;
+}
+
+dialog {
+    text-align: left;
+    background-color: #333333;
+    border: none;
+    border-radius: 28px;
+    padding: 16px 28px;
+}
+
+input[type=text], button {
+    background-color: #66666666;
+    border-radius: 28px;
+    border: none;
+    margin: 32px 8px;
+    box-shadow: 0 1px 2px 0 rgba(0,0,0,.15);
+}
+
+input[type=text]:focus, button:hover {
+    background-color: #88888888;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+
+input[type=text] {
+    width: 45%;
+    font-size: 18px;
+    padding: 16px 32px;
+}
+
+input[type=text]:focus {
+    outline: none;
+}
+
+button {
+    display: inline-block;
+    cursor: pointer;
+    padding: 16px;
+}
+
+.button-settings {
+    background-color: #00000000;
+    margin: 0px 8px;
+    box-shadow: none;
+}
+
+.button-settings:hover {
+    box-shadow: none;
+}
+
+.button-topright-container {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    margin: 16px;
+}
+
+.input-container {
+    display: flex;
+    justify-content: center;
+}
+
+#engine-select {
+    cursor: pointer;
+    width: 100%;
+    position: relative;
+    text-align: left;
+    font-family:  "Helvetica Neue", Helvetica, Arial, sans-serif;
+    background-color: #66666666;
+    outline: none;
+    border: 2px solid #aaa;
+    border-radius: 8px;
+    padding: 16px 8px;
+}
