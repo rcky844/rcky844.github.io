@@ -28,16 +28,16 @@
     "channel_data_modern": {
       "name": "7.0",
       "code": 63,
-      "revision": 0,
+      "revision": 1,
       "date": "2024-12-19",
-      "download_url": "https://gitlab.com/-/project/22143649/uploads/9fed1a80f0851ec9c89067d93248d583/app-modern-next.apk"
+      "download_url": "https://gitlab.com/-/project/22143649/uploads/9446086d5a124df193136a53d072127d/app-modern-next.apk"
     },
     "channel_data_legacy": {
       "name": "7.0",
       "code": 63,
-      "revision": 0,
+      "revision": 1,
       "date": "2024-12-19",
-      "download_url": "https://gitlab.com/-/project/22143649/uploads/c20d4f75ebcb3b0adfeb200a76ffbaf9/app-legacy-next.apk"
+      "download_url": "https://gitlab.com/-/project/22143649/uploads/22873739c19a1665eec2e7fe566c0b06/app-legacy-next.apk"
     }
   }
 }
