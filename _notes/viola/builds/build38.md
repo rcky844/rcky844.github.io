@@ -13,5 +13,5 @@ permalink: /viola/builds/build38
 - Fixed navigation bar color for Android Lollipop ~ Nougat
 
 # Resources
-- [Download](https://gitlab.com/-/project/22143649/uploads/32238a734baa0aad94405328429af5cb/app-release.apk)
-- [Source Code](https://gitlab.com/TipzTeam/viola/-/tree/6.2.1_rel1)
+- [Download](https://codeberg.org/TipzTeam/viola/releases/download/6.2.1_rel1/app-release.apk)
+- [Source Code](https://codeberg.org/TipzTeam/viola/src/tag/6.2.1_rel1)

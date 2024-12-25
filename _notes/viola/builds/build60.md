@@ -38,6 +38,6 @@ permalink: /viola/builds/build60
 - Browser: URL input box loads search engine page with blank character
 
 # Resources
-- [Download (Modern)](https://gitlab.com/-/project/22143649/uploads/542fbe2ff2ed631f4d4443d5924c08a6/app-modern-next.apk)
-- [Download (Legacy)](https://gitlab.com/-/project/22143649/uploads/66b03686fc7534062318892cbcac2a35/app-legacy-next.apk)
-- [Source Code](https://gitlab.com/TipzTeam/viola/-/tree/f04076f989b3e0137953e764e3e9e602d5efce7e)
+- [Download (Modern)](https://archive.org/download/viola-7.0-build60/app-modern-next.apk)
+- [Download (Legacy)](https://archive.org/download/viola-7.0-build60/app-legacy-next.apk)
+- [Source Code](https://codeberg.org/TipzTeam/viola/src/commit/f04076f989b3e0137953e764e3e9e602d5efce7e)

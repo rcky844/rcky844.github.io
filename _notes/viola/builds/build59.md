@@ -34,6 +34,6 @@ permalink: /viola/builds/build59
 Temporary fix: Disable legacy favicon button / Reload the webpage
 
 # Resources
-- [Download (Modern)](https://gitlab.com/-/project/22143649/uploads/194bd7ec219c9137edc66c966507e756/app-modern-next.apk)
-- [Download (Legacy)](https://gitlab.com/-/project/22143649/uploads/c0822367e92f3737c35a9fcb21ae2352/app-legacy-next.apk)
-- [Source Code](https://gitlab.com/TipzTeam/viola/-/tree/bda54d37fbca4ec39dde7953e6bc962fe9466e4c)
+- [Download (Modern)](https://archive.org/download/viola-7.0-build59/app-modern-next.apk)
+- [Download (Legacy)](https://archive.org/download/viola-7.0-build59/app-legacy-next.apk)
+- [Source Code](https://codeberg.org/TipzTeam/viola/src/commit/bda54d37fbca4ec39dde7953e6bc962fe9466e4c)

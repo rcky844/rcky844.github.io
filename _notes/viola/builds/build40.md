@@ -15,5 +15,5 @@ permalink: /viola/builds/build40
 - Fixed incorrect auto closing with some toolbar items
 
 # Resources
-- [Download](https://gitlab.com/-/project/22143649/uploads/18cd28d4e9b83397e6f43c4d3aa2c34c/app-release.apk)
-- [Source Code](https://gitlab.com/TipzTeam/viola/-/tree/6.3_build40)
+- [Download](https://codeberg.org/TipzTeam/viola/releases/download/6.3_build40/app-release.apk)
+- [Source Code](https://codeberg.org/TipzTeam/viola/src/tag/6.3_build40)

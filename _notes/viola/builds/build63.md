@@ -44,6 +44,6 @@ permalink: /viola/builds/build63
 - Changelogs are pointed to the wrong path
 
 # Resources
-- [Download (Modern)](https://gitlab.com/-/project/22143649/uploads/9fed1a80f0851ec9c89067d93248d583/app-modern-next.apk)
-- [Download (Legacy)](https://gitlab.com/-/project/22143649/uploads/c20d4f75ebcb3b0adfeb200a76ffbaf9/app-legacy-next.apk)
-- [Source Code](https://gitlab.com/TipzTeam/viola/-/tree/7.0_beta3)
+- [Download (Modern)](https://codeberg.org/TipzTeam/viola/releases/download/7.0_beta3/app-modern-next.apk)
+- [Download (Legacy)](https://codeberg.org/TipzTeam/viola/releases/download/7.0_beta3/app-legacy-next.apk)
+- [Source Code](https://codeberg.org/TipzTeam/viola/src/tag/7.0_beta3)

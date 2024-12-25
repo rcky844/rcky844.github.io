@@ -22,6 +22,6 @@ permalink: /viola/builds/build63r1
 - Scriptloader: Doesn't exist yet
 
 # Resources
-- [Download (Modern)](https://gitlab.com/-/project/22143649/uploads/9446086d5a124df193136a53d072127d/app-modern-next.apk)
-- [Download (Legacy)](https://gitlab.com/-/project/22143649/uploads/22873739c19a1665eec2e7fe566c0b06/app-legacy-next.apk)
-- [Source Code](https://gitlab.com/TipzTeam/viola/-/tree/7.0_beta3_r1)
+- [Download (Modern)](https://codeberg.org/TipzTeam/viola/releases/download/7.0_beta3_r1/app-modern-next.apk)
+- [Download (Legacy)](https://codeberg.org/TipzTeam/viola/releases/download/7.0_beta3_r1/app-legacy-next.apk)
+- [Source Code](https://codeberg.org/TipzTeam/viola/src/tag/7.0_beta3_r1)

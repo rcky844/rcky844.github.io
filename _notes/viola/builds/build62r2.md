@@ -25,6 +25,6 @@ permalink: /viola/builds/build62r2
 - Bussin WebX: Lua scripts are not supported
 
 # Resources
-- [Download (Modern)](https://gitlab.com/-/project/22143649/uploads/dbc5d82e99f35acbf932185e2f447e87/app-modern-next.apk)
-- [Download (Legacy)](https://gitlab.com/-/project/22143649/uploads/7d571655c252cc7939283328a50eb4a1/app-legacy-next.apk)
-- [Source Code](https://gitlab.com/TipzTeam/viola/-/tree/7.0_beta2_r2)
+- [Download (Modern)](https://codeberg.org/TipzTeam/viola/releases/download/7.0_beta2_r2/app-modern-next.apk)
+- [Download (Legacy)](https://codeberg.org/TipzTeam/viola/releases/download/7.0_beta2_r2/app-legacy-next.apk)
+- [Source Code](https://codeberg.org/TipzTeam/viola/src/tag/7.0_beta2_r2)

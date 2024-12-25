@@ -16,5 +16,5 @@ permalink: /viola/builds/build39
 - Fixed extra transition animation on launch
 
 # Resources
-- [Download](https://gitlab.com/-/project/22143649/uploads/32238a734baa0aad94405328429af5cb/app-release.apk)
-- [Source Code](https://gitlab.com/TipzTeam/viola/-/tree/6.3_build39)
+- [Download](https://codeberg.org/TipzTeam/viola/releases/download/6.3_build39/app-release.apk)
+- [Source Code](https://codeberg.org/TipzTeam/viola/src/tag/6.3_build39)
