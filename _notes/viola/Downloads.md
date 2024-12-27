@@ -11,7 +11,7 @@ permalink: /viola/downloads
 | Build type | Latest version | Date | Download |
 | :--: | :--: | :--: | :--: |
 | Stable | Jumpas Update 6.3 (build 40) | 2024-08-06 | [here](/viola/builds/build40) |
-| Next | Exotic 7.0 (Beta 3.5 Patch 1) (build 63.2) | 2024-12-21 | [here](/viola/builds/build63r2) |
+| Next | Exotic 7.0 (Beta 3.5 Patch 2) (build 63.3) | 2024-12-27 | [here](/viola/builds/build63r3) |
 
 # Changelogs
 ## Version 7.x
@@ -19,6 +19,7 @@ permalink: /viola/downloads
 
 | Version | Build number | Build type | Build extra | Date | Download |
 | :--: | :--: | :--: | :--: | :--: | :--: |
+| 7.0 | 63.3 | Next | Beta 3.5 Patch 2 | 2024-12-27 | [here](/viola/builds/build63r3) |
 | 7.0 | 63.2 | Next | Beta 3.5 Patch 1 | 2024-12-21 | [here](/viola/builds/build63r2) |
 | 7.0 | 63.1 | Next | Beta 3.5 | 2024-12-19 | [here](/viola/builds/build63r1) |
 | 7.0 | 63 | Next | Beta 3 | 2024-12-19 | [here](/viola/builds/build63) |
