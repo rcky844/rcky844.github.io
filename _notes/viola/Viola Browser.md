@@ -7,7 +7,7 @@ permalink: /viola/
 ---
 
 [![Download](https://gist.github.com/cxmeel/0dbc95191f239b631c3874f4ccf114e2/raw/download.svg)](/viola/downloads)
-[![Source code](https://gist.github.com/cxmeel/0dbc95191f239b631c3874f4ccf114e2/raw/gitlab_source.svg)](https://gitlab.com/TipzTeam/viola)
+[![Source code](https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Codeberg_logo_horizontal.svg/160px-Codeberg_logo_horizontal.svg.png)](https://codeberg.org/TipzTeam/viola)
 
 # About
 Viola Browser is a [WebView](https://en.wikipedia.org/wiki/WebView)-based Android web browser. The goal is to create a browser that embodies the beauty and functionality of most mainstream browsers, while making it as lightweight as possible. It was originally called Browservio and has been in active development since 2020.
