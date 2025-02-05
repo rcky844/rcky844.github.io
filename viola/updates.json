@@ -22,17 +22,17 @@
     },
     "channel_data_modern": {
       "name": "7.0",
-      "code": 63,
-      "revision": 4,
-      "date": "2024-12-27",
-      "download_url": "https://codeberg.org/TipzTeam/viola/releases/download/7.0_beta3_r4/app-modern-next.apk"
+      "code": 64,
+      "revision": 0,
+      "date": "2025-02-05",
+      "download_url": "https://codeberg.org/TipzTeam/viola/releases/download/7.0_beta4/app-modern-next.apk"
     },
     "channel_data_legacy": {
       "name": "7.0",
-      "code": 63,
-      "revision": 4,
-      "date": "2024-12-27",
-      "download_url": "https://codeberg.org/TipzTeam/viola/releases/download/7.0_beta3_r4/app-legacy-next.apk"
+      "code": 64,
+      "revision": 0,
+      "date": "2025-02-05",
+      "download_url": "https://codeberg.org/TipzTeam/viola/releases/download/7.0_beta4/app-legacy-next.apk"
     }
   }
 }
