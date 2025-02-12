@@ -2,16 +2,16 @@
   "stable": {
     "channel_name": "Stable",
     "channel_data": {
-      "name": "6.3",
-      "code": 40,
-      "date": "2024-08-06",
-      "download_url": "https://codeberg.org/TipzTeam/viola/releases/download/6.3_build40/app-release.apk"
+      "name": "6.4",
+      "code": 45,
+      "date": "2024-02-12",
+      "download_url": "https://codeberg.org/TipzTeam/viola/releases/download/6.4/app-release.apk"
     },
     "channel_data_modern": {
-      "name": "6.3",
-      "code": 40,
-      "date": "2024-08-06",
-      "download_url": "https://codeberg.org/TipzTeam/viola/releases/download/6.3_build40/app-release.apk"
+      "name": "6.4",
+      "code": 45,
+      "date": "2024-02-12",
+      "download_url": "https://codeberg.org/TipzTeam/viola/releases/download/6.4/app-release.apk"
     },
     "channel_data_legacy": {
     }
