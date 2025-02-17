@@ -34,13 +34,13 @@ Viola Browser currently requires at least **API Level 14**, and is **2.2 MiB** i
 - Viewing page source
 - Favourites & History
 - Recents-based multi-tab
-- Pull-to-refresh + Smart disable on Maps
+- Basic Download Manager
+- Pull-to-refresh + Smart disable
 - Printing
 
 ## Upcoming features
-- Customizable Startpage (7.x)
-- Built-in multi-threaded download manager (7.x)
-- Find in Page (7.x)
+- Built-in multi-threaded download manager (8.x)
+- Find in Page (8.x)
 - Custom Javascript loader (8.x)
 - Built-in multi-tabs manager (8.x)
 - Theming (8.x)
@@ -73,19 +73,23 @@ figure figcaption {
         <figcaption>Startpage</figcaption>
     </figure>
     <figure>
-        <img src="/assets/img/viola/screenshot_2.png" alt="History" width="200">
-        <figcaption>History</figcaption>
+        <img src="/assets/img/viola/screenshot_2.png" alt="Expandable Toolbar" width="200">
+        <figcaption>Expandable Toolbar</figcaption>
     </figure>
     <figure>
-        <img src="/assets/img/viola/screenshot_3.png" alt="Settings" width="200">
-        <figcaption>Settings</figcaption>
+        <img src="/assets/img/viola/screenshot_3.png" alt="Downloads" width="200">
+        <figcaption>Downloads</figcaption>
     </figure>
     <figure>
-        <img src="/assets/img/viola/screenshot_4.png" alt="Custom Tabs" width="200">
-        <figcaption>Custom Tabs</figcaption>
+        <img src="/assets/img/viola/screenshot_4.png" alt="Web browsing" width="200">
+        <figcaption>Web browsing</figcaption>
     </figure>
     <figure>
-        <img src="/assets/img/viola/screenshot_5.png" alt="Startpage with wallpaper" width="200">
-        <figcaption>Startpage with wallpaper</figcaption>
+        <img src="/assets/img/viola/screenshot_5.png" alt="Shortcuts" width="200">
+        <figcaption>Shortcuts</figcaption>
+    </figure>
+    <figure>
+        <img src="/assets/img/viola/screenshot_6.png" alt="SSL Lock dialog" width="200">
+        <figcaption>SSL Lock dialog</figcaption>
     </figure>
 </div>

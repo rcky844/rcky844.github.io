@@ -10,7 +10,7 @@ permalink: /viola/downloads
 
 | Build type | Latest version | Date | Download |
 | :--: | :--: | :--: | :--: |
-| Stable | Jumpas Update 6.4 (build 45) | 2024-02-12 | [here](/viola/builds/build45) |
+| Stable | Exotic 7.0 (build 70) | 2024-02-17 | [here](/viola/builds/build70) |
 | Next | Exotic 7.0 (Beta 6) (build 66) | 2025-02-15 | [here](/viola/builds/build66) |
 
 # Changelogs
@@ -19,6 +19,7 @@ permalink: /viola/downloads
 
 | Version | Build number | Build type | Build extra | Date | Download |
 | :--: | :--: | :--: | :--: | :--: | :--: |
+| 7.0 | 70 | Stable | | 2025-02-17 | [here](/viola/builds/build70) |
 | 7.0 | 66 | Next | Beta 6 | 2025-02-15 | [here](/viola/builds/build66) |
 | 7.0 | 65.2 | Next | Beta 5 Patch 2 | 2025-02-12 | [here](/viola/builds/build65r2) |
 | 7.0 | 65.1 | Next | Beta 5 Patch 1 | 2025-02-08 | [here](/viola/builds/build65r1) |
