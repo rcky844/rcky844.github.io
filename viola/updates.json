@@ -8,18 +8,18 @@
       "download_url": "https://codeberg.org/TipzTeam/viola/releases/download/6.4/app-release.apk"
     },
     "channel_data_modern": {
-      "name": "7.0",
-      "code": 70,
+      "name": "7.1",
+      "code": 71,
       "revision": 0,
-      "date": "2025-02-17",
-      "download_url": "https://codeberg.org/TipzTeam/viola/releases/download/7.0/app-modern-release.apk"
+      "date": "2025-02-18",
+      "download_url": "https://codeberg.org/TipzTeam/viola/releases/download/7.1/app-modern-release.apk"
     },
     "channel_data_legacy": {
-      "name": "7.0",
-      "code": 70,
+      "name": "7.1",
+      "code": 71,
       "revision": 0,
-      "date": "2025-02-17",
-      "download_url": "https://codeberg.org/TipzTeam/viola/releases/download/7.0/app-legacy-release.apk"
+      "date": "2025-02-18",
+      "download_url": "https://codeberg.org/TipzTeam/viola/releases/download/7.1/app-legacy-release.apk"
     }
   },
   "next": {
@@ -27,18 +27,18 @@
     "channel_data": {
     },
     "channel_data_modern": {
-      "name": "7.0",
-      "code": 70,
+      "name": "7.1",
+      "code": 71,
       "revision": 0,
-      "date": "2025-02-17",
-      "download_url": "https://codeberg.org/TipzTeam/viola/releases/download/7.0/app-modern-release.apk"
+      "date": "2025-02-18",
+      "download_url": "https://codeberg.org/TipzTeam/viola/releases/download/7.1/app-modern-release.apk"
     },
     "channel_data_legacy": {
-      "name": "7.0",
-      "code": 70,
+      "name": "7.1",
+      "code": 71,
       "revision": 0,
-      "date": "2025-02-17",
-      "download_url": "https://codeberg.org/TipzTeam/viola/releases/download/7.0/app-legacy-release.apk"
+      "date": "2025-02-18",
+      "download_url": "https://codeberg.org/TipzTeam/viola/releases/download/7.1/app-legacy-release.apk"
     }
   }
 }
