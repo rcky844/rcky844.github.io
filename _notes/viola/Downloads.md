@@ -10,7 +10,7 @@ permalink: /viola/downloads
 
 | Build type | Latest version | Date | Download |
 | :--: | :--: | :--: | :--: |
-| Stable | Exotic 7.1 (build 71) | 2024-02-18 | [here](/viola/builds/build71) |
+| Stable | Exotic 7.1 (build 72) | 2024-02-19 | [here](/viola/builds/build72) |
 | Next | Exotic 7.0 (Beta 6) (build 66) | 2025-02-15 | [here](/viola/builds/build66) |
 
 # Changelogs
@@ -19,6 +19,7 @@ permalink: /viola/downloads
 
 | Version | Build number | Build type | Build extra | Date | Download |
 | :--: | :--: | :--: | :--: | :--: | :--: |
+| 7.1 | 72 | Stable | | 2025-02-19 | [here](/viola/builds/build72) |
 | 7.1 | 71 | Stable | | 2025-02-18 | [here](/viola/builds/build71) |
 | 7.0 | 70 | Stable | | 2025-02-17 | [here](/viola/builds/build70) |
 | 7.0 | 66 | Next | Beta 6 | 2025-02-15 | [here](/viola/builds/build66) |
