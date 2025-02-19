@@ -2,7 +2,7 @@
 layout: Post
 title: Exotic 7.1 (build 71)
 feed: hide
-date: 2025-02-17
+date: 2025-02-18
 permalink: /viola/builds/build71
 ---
 

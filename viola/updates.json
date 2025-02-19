@@ -9,17 +9,17 @@
     },
     "channel_data_modern": {
       "name": "7.1",
-      "code": 72,
+      "code": 73,
       "revision": 0,
       "date": "2025-02-19",
-      "download_url": "https://codeberg.org/TipzTeam/viola/releases/download/7.1_r1/app-modern-release.apk"
+      "download_url": "https://codeberg.org/TipzTeam/viola/releases/download/7.1_r2/app-modern-release.apk"
     },
     "channel_data_legacy": {
       "name": "7.1",
-      "code": 72,
+      "code": 73,
       "revision": 0,
       "date": "2025-02-19",
-      "download_url": "https://codeberg.org/TipzTeam/viola/releases/download/7.1_r1/app-legacy-release.apk"
+      "download_url": "https://codeberg.org/TipzTeam/viola/releases/download/7.1_r2/app-legacy-release.apk"
     }
   },
   "next": {
@@ -28,34 +28,34 @@
     },
     "channel_data_modern": {
       "name": "7.1",
-      "code": 72,
+      "code": 73,
       "revision": 0,
       "date": "2025-02-19",
-      "download_url": "https://codeberg.org/TipzTeam/viola/releases/download/7.1_r1/app-modern-release.apk"
+      "download_url": "https://codeberg.org/TipzTeam/viola/releases/download/7.1_r2/app-modern-release.apk"
     },
     "channel_data_legacy": {
       "name": "7.1",
-      "code": 72,
+      "code": 73,
       "revision": 0,
       "date": "2025-02-19",
-      "download_url": "https://codeberg.org/TipzTeam/viola/releases/download/7.1_r1/app-legacy-release.apk"
+      "download_url": "https://codeberg.org/TipzTeam/viola/releases/download/7.1_r2/app-legacy-release.apk"
     }
   },
   "release": {
     "channel_name": "Stable (temp fix for 7.1 build 71)",
     "channel_data_modern": {
       "name": "7.1",
-      "code": 72,
+      "code": 73,
       "revision": 0,
       "date": "2025-02-19",
-      "download_url": "https://codeberg.org/TipzTeam/viola/releases/download/7.1_r1/app-modern-release.apk"
+      "download_url": "https://codeberg.org/TipzTeam/viola/releases/download/7.1_r2/app-modern-release.apk"
     },
     "channel_data_legacy": {
       "name": "7.1",
-      "code": 72,
+      "code": 73,
       "revision": 0,
       "date": "2025-02-19",
-      "download_url": "https://codeberg.org/TipzTeam/viola/releases/download/7.1_r1/app-legacy-release.apk"
+      "download_url": "https://codeberg.org/TipzTeam/viola/releases/download/7.1_r2/app-legacy-release.apk"
     }
   }
 }
