@@ -42,7 +42,7 @@
     }
   },
   "release": {
-    "channel_name": "Stable (temp fix for 7.1 build 71)",
+    "channel_name": "Release (legacy)",
     "channel_data_modern": {
       "name": "7.1",
       "code": 74,
