@@ -40,10 +40,10 @@ Viola Browser currently requires at least **API Level 14**, and is **2.2 MiB** i
 
 ## Upcoming features
 - Find in Page (8.x)
-- Custom Javascript loader (8.x)
-- Built-in multi-tabs manager (9.x)
-- Theming (9.x)
-- Built-in multi-threaded download manager (10.x)
+- Custom Javascript loader (9.x)
+- Theming (10.x)
+- Built-in multi-threaded download manager (11.x)
+- Built-in multi-tabs manager (12.x)
 
 # Screenshots
 <style type="text/css">
