@@ -11,13 +11,14 @@ permalink: /viola/downloads
 | Build type | Latest version | Date | Download |
 | :--: | :--: | :--: | :--: |
 | Stable | Exotic 7.2.2 (build 85) | 2025-05-01 | [here](/viola/builds/build85) |
-| Next | Fernando 8.0 (build 103) | 2025-05-08 | [here](/viola/builds/build103) |
+| Next | Fernando 8.0 (build 104) | 2025-05-10 | [here](/viola/builds/build104) |
 
 # Changelogs
 ## Version 8.x (Fernando)
 
 | Version | Build number | Build type | Build extra | Date | Download |
 | :--: | :--: | :--: | :--: | :--: | :--: |
+| 8.0 | 104 | Next | | 2025-05-10 | [here](/viola/builds/build104) |
 | 8.0 | 103 | Next | | 2025-05-08 | [here](/viola/builds/build103) |
 | 8.0 | 102 | Next | | 2025-05-01 | [here](/viola/builds/build102) |
 | 8.0 | 101 | Next | | 2025-05-01 | [here](/viola/builds/build101) |
