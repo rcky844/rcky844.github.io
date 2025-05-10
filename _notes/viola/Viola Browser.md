@@ -14,11 +14,6 @@ Viola Browser is a [WebView](https://en.wikipedia.org/wiki/WebView)-based Androi
 
 Viola Browser currently requires at least **API Level 14**, and is **2.2 MiB** in size.
 
-> This project is currently in maintenance mode!
-> 
-> For the moment, no more feature updates will be provided. However, important security or functionality breakage issues will be worked on.
-> Users are free to contribute to the project by submitting merge requests to the GitLab source code.
-
 # Features
 ## Current features
 - Material You design + Monet colours + Force Dark
