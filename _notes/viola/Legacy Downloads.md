@@ -51,15 +51,18 @@ permalink: /viola/legacy_downloads
 ### Jumpas Update 6.4.x
 
 | Version | Build number | Build type | Build extra | Date | Download |
+| :--: | :--: | :--: | :--: | :--: | :--: |
 | 6.4 | 45 | Stable | | 2025-02-12 | [here](/viola/builds/build45) |
 
 ### Jumpas Update 6.3.x
 
 | Version | Build number | Build type | Build extra | Date | Download |
+| :--: | :--: | :--: | :--: | :--: | :--: |
 | 6.3 | 40 | Stable | | 2024-08-06 | [here](/viola/builds/build40) |
 | 6.3 | 39 | Stable | | 2024-08-02 | [here](/viola/builds/build39) |
 
 ### Jumpas 6.2.x
 
 | Version | Build number | Build type | Build extra | Date | Download |
+| :--: | :--: | :--: | :--: | :--: | :--: |
 | 6.2.1 | 38 | Stable | | 2024-07-02 | [here](/viola/builds/build38) |
