@@ -32,9 +32,9 @@ Viola Browser currently requires at least **API Level 14**, and is **2.2 MiB** i
 - Basic Download Manager
 - Pull-to-refresh + Smart disable
 - Printing
+- Find in Page
 
 ## Upcoming features
-- Find in Page (8.x)
 - Custom Javascript loader (9.x)
 - Theming (10.x)
 - Built-in multi-threaded download manager (11.x)
