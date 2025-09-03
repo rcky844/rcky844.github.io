@@ -8,9 +8,11 @@ date: 2024-10-25
 # Welcome!
 Welcome to Ricky's Garden, a site for hosting information about my work. 👋
 
-I am a 16 years old currently residing in Hong Kong, with a vested interest in programming, biology, chemistry, space exploration, arts and history. And a lot of whales! 🐳
+> Note
+>
+> This website is still being updated with more information. It should hopefully be complete before the end of the month (**September 2025**).
 
-This page is currently a stub. It will be left in this state before I complete my HKDSE examination.
+I am a 17 years old currently residing in Hong Kong, with a vested interest in programming, biology, chemistry, space exploration, arts and history. I am currently studying in the Bachelor of Nursing programme at the University of Hong Kong. And a lot of whales! 🐳
 
 For any urgent inquiries concerning my work or requests for information, please contact me through my person email address <a href="mailto:rcheung844@gmail.com">rcheung844@gmail.com</a>. 🗨️
 
