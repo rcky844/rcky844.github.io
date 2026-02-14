@@ -2,7 +2,7 @@
 layout: Post
 title: Setup
 feed: hide
-date: 2024-10-26
+date: 2026-02-14
 permalink: /setup
 format: list
 ---
@@ -11,11 +11,13 @@ format: list
 ## Desktop
 - Motherboard: MS-iCraft Z690 ITX
 - CPU: Intel Core i9-13900 (ES)
+- dGPU: Nvidia CMP 40HX
 - iGPU: Intel UHD 770
-- RAM: 2* 16GB Gloway DDR5 (5400MHz)
-- NVMe: 512GB Gloway
+- RAM: 2* 32GB Corsair Vengeance RGB DDR5 (5600MHz)
+- NVMe: 1TB Kingston SNV3S1000G
+- NVMe: 512GB Gloway Basic+512
 - SSD: 320GB Colorful SL500
-- HDD: 320GB Toshiba
+- HDD: 320GB Toshiba MK3256GSY
 - OS: KDE / Arch Linux
 
 ## Laptop
@@ -26,7 +28,11 @@ format: list
 - NVMe: 512GB Micron
 - OS: KDE / Arch Linux
 
-## Tablet
+## Tablet (iOS)
+- Model: iPad mini (A17 Pro)
+- OS: iOS 26.1
+
+## Tablet (Linux)
 - Model: Microsoft Surface Go 2
 - CPU: Intel Core m3-8100Y
 - iGPU: Intel Graphics UHD 615
