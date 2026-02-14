@@ -46,6 +46,12 @@ They differ in available modem bands and camera modules.
 
 They differ in available modem bands, camera modules, and potentially display panels.
 
+### OPPO R9 Plus
+* R9 Plus (China)
+* X9079 (Global)
+
+They differ in available modem bands.
+
 ## Feature matrix
 ### Downstream Android
 <div class="full-width">
@@ -55,15 +61,18 @@ They differ in available modem bands, camera modules, and potentially display pa
             <td><strong>A57</strong></td>
             <td><strong>R9s</strong></td>
             <td><strong>R9sPlus</strong></td>
+            <td><strong>R9Plus</strong></td>
         </tr>
         <tr>
             <td>Display</td>
             <td class="done">Y</td>
             <td class="partial">P<sup>1</sup></td>
             <td class="partial">P<sup>1</sup></td>
+            <td class="partial">P<sup>1</sup></td>
         </tr>
         <tr>
             <td>GPU Acceleration</td>
+            <td class="done">Y</td>
             <td class="done">Y</td>
             <td class="done">Y</td>
             <td class="done">Y</td>
@@ -73,9 +82,11 @@ They differ in available modem bands, camera modules, and potentially display pa
             <td class="done">Y</td>
             <td class="done">Y</td>
             <td class="partial">P<sup>2</sup></td>
+            <td class="done">Y</td>
         </tr>
         <tr>
             <td>Bluetooth</td>
+            <td class="done">Y</td>
             <td class="done">Y</td>
             <td class="done">Y</td>
             <td class="done">Y</td>
@@ -85,9 +96,11 @@ They differ in available modem bands, camera modules, and potentially display pa
             <td class="done">Y</td>
             <td class="done">Y</td>
             <td class="done">Y</td>
+            <td class="done">Y</td>
         </tr>
         <tr>
             <td>GNSS<sup>4</sup></td>
+            <td class="done">Y</td>
             <td class="done">Y</td>
             <td class="done">Y</td>
             <td class="done">Y</td>
@@ -97,9 +110,11 @@ They differ in available modem bands, camera modules, and potentially display pa
             <td class="done">Y</td>
             <td class="done">Y</td>
             <td class="done">Y</td>
+            <td class="partial">P</td>
         </tr>
         <tr>
             <td>Video Codec</td>
+            <td class="done">Y</td>
             <td class="done">Y</td>
             <td class="done">Y</td>
             <td class="done">Y</td>
@@ -109,11 +124,13 @@ They differ in available modem bands, camera modules, and potentially display pa
             <td class="done">Y</td>
             <td class="partial">P<sup>5</sup></td>
             <td class="partial">P<sup>5</sup></td>
+            <td class="partial">P<sup>5</sup></td>
         </tr>
         <tr>
             <td>Rear Camera</td>
             <td class="done">Y</td>
             <td class="partial">P<sup>6</sup></td>
+            <td class="broken">N</td>
             <td class="broken">N</td>
         </tr>
         <tr>
@@ -121,9 +138,11 @@ They differ in available modem bands, camera modules, and potentially display pa
             <td class="done">Y</td>
             <td class="done">Y</td>
             <td class="broken">N</td>
+            <td class="done">Y</td>
         </tr>
         <tr>
             <td>Sensors</td>
+            <td class="done">Y</td>
             <td class="done">Y</td>
             <td class="done">Y</td>
             <td class="done">Y</td>
@@ -133,9 +152,11 @@ They differ in available modem bands, camera modules, and potentially display pa
             <td class="done">Y</td>
             <td class="partial">P<sup>7</sup></td>
             <td class="partial">P<sup>7</sup></td>
+            <td class="done">Y</td>
         </tr>
         <tr>
             <td>Touchkeys</td>
+            <td class="done">Y</td>
             <td class="done">Y</td>
             <td class="done">Y</td>
             <td class="done">Y</td>
@@ -145,9 +166,11 @@ They differ in available modem bands, camera modules, and potentially display pa
             <td class="done">Y</td>
             <td class="done">Y</td>
             <td class="done">P<sup>2</sup></td>
+            <td class="done">Y</td>
         </tr>
         <tr>
             <td>Buttons</td>
+            <td class="done">Y</td>
             <td class="done">Y</td>
             <td class="done">Y</td>
             <td class="done">Y</td>
@@ -157,18 +180,20 @@ They differ in available modem bands, camera modules, and potentially display pa
             <td class="done">Y</td>
             <td class="done">Y</td>
             <td class="done">Y</td>
+            <td class="done">Y</td>
         </tr>
         <tr>
             <td>LEDs</td>
             <td class="done">Y</td>
             <td class="done">Y</td>
             <td class="partial">P</td>
+            <td class="partial">P</td>
         </tr>
 </tbody></table>
 </div>
 
 #### Notes
-<sup>1</sup> `R9s` & `R9sPlus` have trouble with display blanking, which cause kernel panic with ambient display.
+<sup>1</sup> `R9s`, `R9sPlus`, `R9Plus` have trouble with display blanking, which cause kernel panic with ambient display.
 
 <sup>2</sup> WiFi & Fingerprint Reader do not function during first boot.
 
@@ -211,6 +236,14 @@ They differ in available modem bands, camera modules, and potentially display pa
 #### Recovery
 * `TWRP` [TeamWin Recovery Project](https://xdaforums.com/t/recovery-unofficial-twrp-for-oppo-a57-r9s-2016.4007685/) <sup>`unofficial`</sup> <sup>`k4.9`</sup>
 
+### OPPO R9 Plus
+#### ROMs
+* `A14` [LineageOS 21.0]() <sup>`unofficial`</sup> <sup>`k4.9`</sup>
+
+#### Recovery
+* `TWRP` [TeamWin Recovery Project](https://xdaforums.com/t/recovery-unofficial-twrp-for-oppo-a57-r9s-2016.4007685/) <sup>`unofficial`</sup> <sup>`k4.9`</sup>
+
+
 ## Building
 
 Use the following `local_manifests.xml` to sync OPPO Thortanium projects on `lineage-21` branch:
@@ -223,6 +256,7 @@ Use the following `local_manifests.xml` to sync OPPO Thortanium projects on `lin
   <project name="TipzTeam/android_device_oppo_A57" path="device/oppo/A57" remote="codeberg" />
   <project name="TipzTeam/android_device_oppo_R9s" path="device/oppo/R9s" remote="codeberg" />
   <project name="TipzTeam/android_device_oppo_R9sPlus" path="device/oppo/R9sPlus" remote="codeberg" />
+  <project name="TipzTeam/android_device_oppo_R9Plus" path="device/oppo/R9Plus" remote="codeberg" />
   <project name="TipzTeam/android_device_oppo_thortanium-common" path="device/oppo/thortanium-common" remote="codeberg" />
   <project name="TipzTeam/android_kernel_oppo_msm8937" path="kernel/oppo/msm8937" remote="codeberg" />
   <project name="TipzTeam/proprietary_vendor_oppo" path="vendor/oppo" remote="codeberg" />
