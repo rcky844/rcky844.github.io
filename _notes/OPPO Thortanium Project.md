@@ -66,9 +66,9 @@ They differ in available modem bands.
         <tr>
             <td>Display</td>
             <td class="done">Y</td>
-            <td class="partial">P<sup>1</sup></td>
-            <td class="partial">P<sup>1</sup></td>
-            <td class="partial">P<sup>1</sup></td>
+            <td class="done">Y</td>
+            <td class="done">Y</td>
+            <td class="done">Y</td>
         </tr>
         <tr>
             <td>GPU Acceleration</td>
@@ -81,7 +81,7 @@ They differ in available modem bands.
             <td>WiFi</td>
             <td class="done">Y</td>
             <td class="done">Y</td>
-            <td class="partial">P<sup>2</sup></td>
+            <td class="partial">P<sup>1</sup></td>
             <td class="done">Y</td>
         </tr>
         <tr>
@@ -92,14 +92,14 @@ They differ in available modem bands.
             <td class="done">Y</td>
         </tr>
         <tr>
-            <td>Modem<sup>3</sup></td>
+            <td>Modem<sup>2</sup></td>
             <td class="done">Y</td>
             <td class="done">Y</td>
             <td class="done">Y</td>
             <td class="done">Y</td>
         </tr>
         <tr>
-            <td>GNSS<sup>4</sup></td>
+            <td>GNSS<sup>3</sup></td>
             <td class="done">Y</td>
             <td class="done">Y</td>
             <td class="done">Y</td>
@@ -110,7 +110,7 @@ They differ in available modem bands.
             <td class="done">Y</td>
             <td class="done">Y</td>
             <td class="done">Y</td>
-            <td class="partial">P</td>
+            <td class="done">Y</td>
         </tr>
         <tr>
             <td>Video Codec</td>
@@ -122,16 +122,16 @@ They differ in available modem bands.
         <tr>
             <td>Battery</td>
             <td class="done">Y</td>
-            <td class="partial">P<sup>5</sup></td>
-            <td class="partial">P<sup>5</sup></td>
-            <td class="partial">P<sup>5</sup></td>
+            <td class="partial">P<sup>4</sup></td>
+            <td class="partial">P<sup>4</sup></td>
+            <td class="partial">P<sup>4</sup></td>
         </tr>
         <tr>
             <td>Rear Camera</td>
             <td class="done">Y</td>
-            <td class="partial">P<sup>6</sup></td>
+            <td class="partial">P<sup>5</sup></td>
             <td class="broken">N</td>
-            <td class="broken">N</td>
+            <td class="done">Y</td>
         </tr>
         <tr>
             <td>Front Camera</td>
@@ -150,8 +150,8 @@ They differ in available modem bands.
         <tr>
             <td>Touchscreen</td>
             <td class="done">Y</td>
-            <td class="partial">P<sup>7</sup></td>
-            <td class="partial">P<sup>7</sup></td>
+            <td class="partial">P<sup>6</sup></td>
+            <td class="partial">P<sup>6</sup></td>
             <td class="done">Y</td>
         </tr>
         <tr>
@@ -165,7 +165,7 @@ They differ in available modem bands.
             <td>Fingerprint Reader</td>
             <td class="done">Y</td>
             <td class="done">Y</td>
-            <td class="done">P<sup>2</sup></td>
+            <td class="partial">P<sup>1</sup></td>
             <td class="done">Y</td>
         </tr>
         <tr>
@@ -187,25 +187,23 @@ They differ in available modem bands.
             <td class="done">Y</td>
             <td class="done">Y</td>
             <td class="partial">P</td>
-            <td class="partial">P</td>
+            <td class="done">Y</td>
         </tr>
 </tbody></table>
 </div>
 
 #### Notes
-<sup>1</sup> `R9s`, `R9sPlus`, `R9Plus` have trouble with display blanking, which cause kernel panic with ambient display.
+<sup>1</sup> WiFi & Fingerprint Reader do not function during first boot.
 
-<sup>2</sup> WiFi & Fingerprint Reader do not function during first boot.
+<sup>2</sup> Feature availability depends on device variants and region. Users living in some countries (e.g. India, Australia) may face issues with calling due to restrictions on IMS/VoLTE.
 
-<sup>3</sup> Feature availability depends on device variants and region. Users living in some countries (e.g. India, Australia) may face issues with calling due to restrictions on IMS/VoLTE.
+<sup>3</sup> GPS takes some time to warm up. This may require further investigation.
 
-<sup>4</sup> GPS takes some time to warm up. This may require further investigation.
+<sup>4</sup> VOOC charging activation requires driver writing.
 
-<sup>5</sup> VOOC charging activation requires driver writing.
+<sup>5</sup> Only lower resolutions work (under 5 MP). Higher resolutions causes VFE0 pixel pipelines to overflow.
 
-<sup>6</sup> Only lower resolutions work (under 5 MP). Higher resolutions causes VFE0 pixel pipelines to overflow.
-
-<sup>7</sup> LCD display variants use the Synaptics S3320 touch IC, which is supposed to support touchscreen gestures (incl. DT2W) but do not work.
+<sup>6</sup> LCD display variants use the Synaptics S3320 touch IC, which is supposed to support touchscreen gestures (incl. DT2W) but do not work.
 
 ## Available downloads
 ### OPPO A57 (2016)
