@@ -12,7 +12,7 @@ permalink: /viola/
 # About
 Viola Browser is a [WebView](https://en.wikipedia.org/wiki/WebView)-based Android web browser. The goal is to create a browser that embodies the beauty and functionality of most mainstream browsers, while making it as lightweight as possible. It was originally called Browservio and has been in active development since 2020.
 
-Viola Browser currently requires at least **API Level 14**, and is **2.2 MiB** in size.
+Viola Browser currently requires at least **API Level 14**.
 
 # Features
 ## Current features
