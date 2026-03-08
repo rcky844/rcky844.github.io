@@ -10,7 +10,7 @@ permalink: /viola/downloads
 
 | Build type | Latest version | Date | Download |
 | :--: | :--: | :--: | :--: |
-| Stable | Fernando 8.0.2 (build 112) | 2026-03-05 | [here](/viola/builds/build112) |
+| Stable | Fernando 8.0.3 (build 113) | 2026-03-08 | [here](/viola/builds/build113) |
 | Next | Francesco 8.1 Beta 2 | 2026-03-08 | [here](/viola/builds/build121) |
 
 # Changelogs
@@ -25,6 +25,7 @@ permalink: /viola/downloads
 
 | Version | Build number | Build type | Build extra | Date | Download |
 | :--: | :--: | :--: | :--: | :--: | :--: |
+| 8.0.3 | 113 | Stable | | 2026-03-08 | [here](/viola/builds/build113) |
 | 8.0.2 | 112 | Stable | | 2026-03-05 | [here](/viola/builds/build112) |
 | 8.0.1 | 111 | Stable | | 2025-10-19 | [here](/viola/builds/build111) |
 
