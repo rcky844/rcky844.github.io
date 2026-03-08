@@ -28,17 +28,17 @@
     },
     "channel_data_modern": {
       "name": "8.1",
-      "code": 120,
+      "code": 121,
       "revision": 0,
-      "date": "2026-03-05",
-      "download_url": "https://codeberg.org/TipzTeam/viola/releases/download/8.1-beta.1/app-modern-next.apk"
+      "date": "2026-03-08",
+      "download_url": "https://codeberg.org/TipzTeam/viola/releases/download/8.1-beta.2/app-modern-next.apk"
     },
     "channel_data_legacy": {
       "name": "8.1",
-      "code": 120,
+      "code": 121,
       "revision": 0,
-      "date": "2026-03-05",
-      "download_url": "https://codeberg.org/TipzTeam/viola/releases/download/8.1-beta.1/app-legacy-next.apk"
+      "date": "2026-03-08",
+      "download_url": "https://codeberg.org/TipzTeam/viola/releases/download/8.1-beta.2/app-legacy-next.apk"
     }
   },
   "release": {
