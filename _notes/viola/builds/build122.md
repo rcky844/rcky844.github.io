@@ -6,7 +6,7 @@ date: 2026-04-10
 permalink: /viola/builds/build122
 ---
 
-# Changesr
+# Changes
 ## Browser
 - Improved ad blocker
     - Support merged hosts lists for better coverage
