@@ -6,7 +6,7 @@ date: 2026-04-23
 permalink: /viola/builds/build123
 ---
 
-# Changesr
+# Changes
 ## Browser
 - Make shortcut creation unavailable to unsupported devices
 
