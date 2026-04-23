@@ -9,6 +9,7 @@ permalink: /viola/builds/build123
 # Changes
 ## Browser
 - Make shortcut creation unavailable to unsupported devices
+- More downloaded file type support
 
 ## Favourites / History
 - Fixed ordering of entries
